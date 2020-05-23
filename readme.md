@@ -46,3 +46,7 @@ Lastly, the `deploy` command runs. This command will upload the `lib` directory 
 Preview your site in the browser by finding the url in the amplify console, or by using the following format:
 
 `http://<bucket-name>.s3-website-<bucket_region>.amazonaws.com/`
+
+### Todo
+
+- Add steps on how a CI/CD pipeline can be used with Amplify hosting
