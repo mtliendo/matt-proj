@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "aws s3 cp --recursive lib s3://liendo-matt-s3/",
+    "predeploy": "rm -rf lib && mkdir lib && cp -r index.html about.html myapp.html dist lib"
   },
   "author": "",
   "license": "ISC",
